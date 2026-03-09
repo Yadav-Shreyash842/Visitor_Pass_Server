@@ -1,4 +1,4 @@
-const CheckLog = require ("../Models/CheckLog");
+const CheckLog = require ("../Models/Checklog");
 const Pass = require ("../Models/Pass");
 const Visitor = require ("../Models/Visitor");
 
