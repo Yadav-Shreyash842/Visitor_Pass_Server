@@ -7,13 +7,13 @@ Copy these to your Render dashboard when deploying:
 ```
 PORT=3000
 
-MONGO_URI=mongodb+srv://yadavshreyash842:ZApHvFdd9SUBKXrq@cluster0.o9hc2wt.mongodb.net/Visitor_pass?appName=Cluster0
+MONGO_URI=mongodb+srv://username:password@cluster0.xxxxx.mongodb.net/Visitor_pass
 
-JWT_SECRET=shreyash_super_secret_key_2026
+JWT_SECRET=your-super-secret-jwt-key-here
 
-EMAIL_USER=yadavshreyash484@gmail.com
+EMAIL_USER=your-email@gmail.com
 
-EMAIL_PASS=lqvbquuwmclwxygq
+EMAIL_PASS=your-gmail-app-password
 
 NODE_ENV=production
 ```
@@ -74,10 +74,10 @@ Click "Advanced" → "Environment Variables" → Add each one:
 | Key | Value |
 |-----|-------|
 | `PORT` | `3000` |
-| `MONGO_URI` | `mongodb+srv://yadavshreyash842:ZApHvFdd9SUBKXrq@cluster0.o9hc2wt.mongodb.net/Visitor_pass?appName=Cluster0` |
-| `JWT_SECRET` | `shreyash_super_secret_key_2026` |
-| `EMAIL_USER` | `yadavshreyash484@gmail.com` |
-| `EMAIL_PASS` | `lqvbquuwmclwxygq` |
+| `MONGO_URI` | `mongodb+srv://username:password@cluster.mongodb.net/Visitor_pass` |
+| `JWT_SECRET` | `your-super-secret-jwt-key` |
+| `EMAIL_USER` | `your-email@gmail.com` |
+| `EMAIL_PASS` | `your-gmail-app-password` |
 | `NODE_ENV` | `production` |
 
 ### Step 5: Deploy
@@ -188,10 +188,10 @@ npm start
 **Environment Variables (Copy all at once):**
 ```
 PORT=3000
-MONGO_URI=mongodb+srv://yadavshreyash842:ZApHvFdd9SUBKXrq@cluster0.o9hc2wt.mongodb.net/Visitor_pass?appName=Cluster0
-JWT_SECRET=shreyash_super_secret_key_2026
-EMAIL_USER=yadavshreyash484@gmail.com
-EMAIL_PASS=lqvbquuwmclwxygq
+MONGO_URI=mongodb+srv://username:password@cluster.mongodb.net/Visitor_pass
+JWT_SECRET=your-super-secret-jwt-key
+EMAIL_USER=your-email@gmail.com
+EMAIL_PASS=your-gmail-app-password
 NODE_ENV=production
 ```
 
